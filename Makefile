@@ -6,6 +6,9 @@ ALL_DEP:=$(TEMPLAR_ALL_DEP)
 ALL_PY:=$(shell find src -name "*.py")
 ALL_STAMP:=$(addsuffix .stamp, $(basename $(ALL_PY)))
 
+.PHONY: all
+all: check_all
+
 .PHONY: check_all
 check_all: $(ALL_STAMP)
 
@@ -45,4 +48,4 @@ debug_me:
 
 .PHONY: show_shbang
 show_shbang:
-	find . -name "*.py" -and -executable -exec head -1 {} \; | sort | uniq
+	find src -name "*.py" -and -executable -exec head -1 {} \; | sort | uniq

@@ -1,11 +1,12 @@
 #!/usr/bin/python2
 
 '''
-Implemting grep in python in less than 10 lines of code...
+Implementing grep in python in less than 10 lines of code...
 '''
 
-import re  # for compile, finditer
-import sys  # for argv
+from __future__ import print_function
+import re  # for compile
+import sys  # for argv, exit
 
 # command line usage...
 if len(sys.argv) < 3:

@@ -84,6 +84,10 @@ packs=[
 
 	# lint and code formatting
 	'python-autopep8',
+
+	# pdf creation with python
+	'python-pypdf2',
+	'python3-pypdf2',
 ]
 
 pips=[
