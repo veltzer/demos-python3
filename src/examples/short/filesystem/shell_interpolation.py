@@ -8,6 +8,7 @@ As you can see none of those do path expansions
 
 import os  # for expanduser, expandvars
 
+print(os.path.expanduser('~'))
 print(os.path.expanduser('~/.viminfo'))
 print(os.path.expandvars('USER is $USER'))
 print(os.path.expanduser('ls'))
