@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 Demo to show the usage of the imp module in python
@@ -6,8 +6,7 @@ This clearly shows that you can reload any module into any name space using
 the imp module.
 '''
 
-from __future__ import print_function
-import imp  # for load_source
+import imp # for load_source
 
 imp.load_source('__main__', 'using_imp_one.py')
 print('add(2,2) is', add(2, 2))

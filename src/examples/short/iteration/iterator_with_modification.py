@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 The purpose of this example is to show what happens when we modify elements
@@ -73,7 +73,7 @@ elements_visited = set()
 all_elements = set(l)
 for i, x in enumerate(l):
     if i == size // 2:  # integral division
-        for y in xrange(3):
+        for y in range(3):
             l.insert(0, 10 + y)
     if x in elements_visited:
         print('yep. we are visiting {0} twice...'.format(x))

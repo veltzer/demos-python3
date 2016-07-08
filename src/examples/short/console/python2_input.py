@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example explores the 'input' function in python2
@@ -13,7 +13,6 @@ or a double or whatever).
 - I don't like this function in python2.
 '''
 
-from __future__ import print_function
 text = input('please give me a number: ')
 print('type of return from input is', type(text))
 print('value returned from input is', text)

@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 get_movie.py
@@ -13,7 +13,6 @@ NOTES:
 - this script is python2 on purpose because the imdb module is currently only available for python2 in ubuntu.
 '''
 
-from __future__ import print_function
 import sys  # for exit, argv, stdout, getdefaultencoding
 import imdb  # for IMDb
 import random  # for randrange

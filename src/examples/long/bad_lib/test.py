@@ -1,7 +1,7 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
-import module_checker
-import signal
+import module_checker # for check_lib
+import signal # for pause
 
 # this works
 # module_checker.check_lib('libacl.so')

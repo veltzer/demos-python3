@@ -1,6 +1,5 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
-from __future__ import print_function
 from twisted.internet.protocol import Factory, Protocol
 from twisted.internet import reactor
 from twisted.protocols.basic import LineReceiver

@@ -5,10 +5,10 @@ days_in_months_leap_year = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 months_names = ['January', 'February', 'March', 'April', 'May', 'June',
                 'July', 'August', 'September', 'October', 'November', 'December']
 name_to_days_num = {}
-for i in xrange(12):
+for i in range(12):
     name_to_days_num[months_names[i]] = days_in_months[i]
 month_name_to_index = {}
-for i in xrange(12):
+for i in range(12):
     month_name_to_index[months_names[i]] = i
 
 

@@ -7,10 +7,10 @@ is the same as:
 		newlist.append(expr)
 	return newlist
 example:
-	[x*x for x in xrange(5)]
+	[x*x for x in range(5)]
 is the same as:
 	newlist=[]
-	for x in xrange(5):
+	for x in range(5):
 		newlist.append(x*x)
 	return newlist
 
@@ -40,8 +40,8 @@ is the same as:
 		code:
 			yield expr
 example:
-	(x*x for x in xrange(5))
+	(x*x for x in range(5))
 is the same as:
 	def anonymous():
-		for x in xrange(5):
+		for x in range(5):
 			yield x*x

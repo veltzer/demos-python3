@@ -1,8 +1,7 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 # Demo program to show use of python-newt module
 
-from __future__ import absolute_import, print_function, unicode_literals
 from snack import *
 
 screen = SnackScreen()

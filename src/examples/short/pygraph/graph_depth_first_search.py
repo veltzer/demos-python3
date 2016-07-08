@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 # Import the module and instantiate a graph object
 from pygraph.classes.graph import graph

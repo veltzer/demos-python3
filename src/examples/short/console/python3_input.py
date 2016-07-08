@@ -13,7 +13,6 @@ raw input prints to the screen * exactly * what you give it...
 - this example will not work in python3 since 'raw_input' got renamed to 'input'
 '''
 
-from __future__ import print_function
 text = input('please give me a number: ')
 print('type returned from input is', type(text))
 print('value returned from input is', text)

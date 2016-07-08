@@ -1,11 +1,9 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 An example for using class methods to keep per class properties.
 Once set, subclass properties shadows properties on the base class.
 '''
-
-from __future__ import print_function
 
 
 class Book(object):

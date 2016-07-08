@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 INPUT_NAME = 'tmp.txt'
 OUTPUT = 'tmp2.txt'

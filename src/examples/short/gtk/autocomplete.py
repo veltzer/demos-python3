@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 References:
@@ -8,7 +8,6 @@ How to write a custom pygtk widget:
 	http://www.pygtk.org/articles/writing-a-custom-widget-using-pygtk/writing-a-custom-widget-using-pygtk.htm
 '''
 
-from __future__ import print_function
 import gobject
 import gtk
 

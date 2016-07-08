@@ -1,7 +1,6 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
-from __future__ import print_function
-import sys  # for stdin
+import sys # for stdin
 
 last = None
 count = 0

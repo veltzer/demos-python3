@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example shows how to use varargs in python to do useful work.
@@ -12,6 +12,6 @@ def my_print(x):
 
 
 def call_many_times(func, times, *args, **kwargs):
-    for x in xrange(times):
+    for x in range(times):
         func(*args, **kwargs)
 call_many_times(my_print, 5, 'hello')

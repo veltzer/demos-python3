@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 # encoding: UTF-8
 
 '''
@@ -9,7 +9,5 @@ What you need to do is:
 - write 'u' strings when you want then unicode.
 - tell python about the encoding of your file (see the right after the shbang line).
 '''
-
-from __future__ import print_function
 
 print(u'הי')

@@ -56,7 +56,7 @@ class ProduceOrConsume(threading.Thread):
 
 stack = Stack()
 threads = [None] * 6
-for i in xrange(6):
+for i in range(6):
     threads[i] = ProduceOrConsume(stack, i % 2 == 0, i)
 for thread in threads:
     thread.start()

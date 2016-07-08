@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 this is an example of how the 'map' function in python works
@@ -17,4 +17,4 @@ def my_map(func, val_list):
 def square(x):
     return x * x
 
-print(my_map(square, xrange(2, 8)))
+print(my_map(square, range(2, 8)))

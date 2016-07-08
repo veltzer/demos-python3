@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This is a piece of python code that loads a library and
@@ -12,8 +12,8 @@ References:
 http://stackoverflow.com/questions/359498/how-can-i-unload-a-dll-using-ctypes-in-python
 '''
 
-import ctypes
-import signal
+import ctypes # for cdll, CDLL
+import signal # for pause
 
 l = ctypes.cdll.LoadLibrary('libacl.so')
 libdl = ctypes.CDLL('libdl.so')

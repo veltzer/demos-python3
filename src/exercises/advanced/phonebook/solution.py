@@ -1,7 +1,6 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
-from __future__ import print_function
-import re
+import re # for search
 
 
 def read_phonebook():

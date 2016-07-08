@@ -1,10 +1,9 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 A minimal gtk application demo.
 '''
 
-from __future__ import print_function
 import gtk  # for Button, Window, main, main_quit
 
 

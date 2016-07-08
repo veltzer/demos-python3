@@ -1,10 +1,9 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 A pygtk hello world application
 '''
 
-from __future__ import print_function
 import gtk
 
 

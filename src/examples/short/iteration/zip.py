@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example iterates two or more containers at the same time.
@@ -10,8 +10,6 @@ until the shorter one (see second example).
 TODO:
 - show how to iterate two containers in sequence instead of simultaneously.
 '''
-
-from __future__ import print_function
 
 ll1 = [1, 2, 3, 4, 5]
 ll2 = [10, 11, 12, 13, 14]

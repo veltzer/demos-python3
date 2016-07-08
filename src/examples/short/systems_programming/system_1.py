@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example demonstrates the use of the 'exec' family of functions. Notice that after

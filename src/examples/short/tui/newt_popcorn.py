@@ -1,6 +1,5 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
-from __future__ import absolute_import, print_function, unicode_literals
 from snack import *
 import sys
 

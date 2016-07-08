@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This demo explores the meaning of 'private' members in python (__).
@@ -6,8 +6,6 @@ This demo explores the meaning of 'private' members in python (__).
 The end result is that you can override both _ and __ values in
 python.
 '''
-
-from __future__ import print_function
 
 
 class MyClass:

@@ -1,6 +1,4 @@
-#!/usr/bin/python2
-
-from __future__ import print_function
+#!/usr/bin/python3
 
 login = raw_input('insert login: ')
 full_name = raw_input('insert full name: ')

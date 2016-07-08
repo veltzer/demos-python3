@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 A more complex example involving deferreds.
@@ -17,7 +17,7 @@ def largeFibonnaciNumber():
     # calculate the ten thousandth Fibonnaci number
     first = 0
     second = 1
-    for i in xrange(TARGET - 1):
+    for i in range(TARGET - 1):
         new = first + second
         first = second
         second = new

@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 demo of simple web server in python using HTTPServer
@@ -6,7 +6,6 @@ originally grabbed from 'http://fragments.turtlemeat.com/pythonwebserver.php'.
 Copyright Jon Berg , turtlemeat.com
 '''
 
-from __future__ import print_function
 import string
 import cgi
 import time

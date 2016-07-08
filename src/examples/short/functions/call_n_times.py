@@ -1,15 +1,13 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example shows how to generically call a function you know nothing about
 and get the arguments for it from the outside
 '''
 
-from __future__ import print_function
-
 
 def call_n_times(n, f, *args, **kwargs):
-    for i in xrange(n):
+    for i in range(n):
         f(*args, **kwargs)
 
 

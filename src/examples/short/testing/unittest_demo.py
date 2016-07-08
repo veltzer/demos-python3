@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example demonstrates the use of the 'unittest' module.
@@ -11,7 +11,7 @@ class myunittest(unittest.TestCase):
 
     def testThis(self):
         sum = 0
-        for x in xrange(0, 100):
+        for x in range(0, 100):
             sum += x
         self.assert_(sum == 4950)
 

@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 this sys.path.append in the next section is needed since we didn't
@@ -6,7 +6,6 @@ this sys.path.append in the next section is needed since we didn't
 If we had this would not have been neccessary.
 '''
 
-from __future__ import print_function
 import sys
 sys.path.append('build/lib.linux-i686-2.7')
 

@@ -1,6 +1,5 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
-from __future__ import print_function
 import simpleparse.parser
 import simpleparse.dispatchprocessor
 import pprint

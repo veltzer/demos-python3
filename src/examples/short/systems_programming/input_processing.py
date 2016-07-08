@@ -1,12 +1,11 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example is similar to while(<>) in perl which processes input
 both from standard input and from command line arguments.
 '''
 
-from __future__ import print_function
-import fileinput
+import fileinput # for input
 
 for line in fileinput.input():
     line = line.rstrip()

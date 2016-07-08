@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example shows that private values (values stored in attributes
@@ -9,8 +9,6 @@ whose names is prefixed by one or two underscores) are not really private.
 NOTE: new style (deriving from 'object') type object or old style object make no
 difference as to this point.
 '''
-
-from __future__ import print_function
 
 
 class Book(object):

@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example shows that when map is given a generator it DOES NOT create a list
@@ -8,7 +8,7 @@ added one element at a time to the resulting list.
 
 
 def my_gen():
-    for i in xrange(10):
+    for i in range(10):
         print('my_gen')
         yield i ** 2
 

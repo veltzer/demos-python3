@@ -1,10 +1,8 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 Example code for raising an exception,catching it and executing finally code in python.
 '''
-
-from __future__ import print_function
 
 try:
     raise ValueError('hello')

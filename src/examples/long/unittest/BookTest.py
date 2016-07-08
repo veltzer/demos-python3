@@ -1,6 +1,5 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
-from __future__ import print_function
 import unittest  # for main
 import Book  # for Book
 

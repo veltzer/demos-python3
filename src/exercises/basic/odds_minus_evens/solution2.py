@@ -10,4 +10,4 @@ def odds_minus_evens(l):
             sum += x
     return sum
 
-print(odds_minus_evens(xrange(2, 6)))
+print(odds_minus_evens(range(2, 6)))

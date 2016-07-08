@@ -1,15 +1,15 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 setup.py file for SWIG atoi
 '''
 
-from distutils.core import setup, Extension
+import distutils.core # for setup, Extension
 
-atoi_module = Extension('_atoi',
-                        sources=['atoi_wrap.c'],
-                        )
-setup(
+atoi_module = distutils.core.Extension('_atoi',
+	sources=['atoi_wrap.c'],
+)
+distutils.core.setup(
     name='atoi',
         version='0.1',
         author='SWIG Docs',

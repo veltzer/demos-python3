@@ -1,10 +1,8 @@
-#!/usr/bin/python2
-
-from __future__ import print_function
+#!/usr/bin/python3
 
 
 def swap_lists(l1, l2):
-    for i in xrange(len(l1)):
+    for i in range(len(l1)):
         [l1[i], l2[i]] = [l2[i], l1[i]]
 
 l1 = [2, 3, 4]

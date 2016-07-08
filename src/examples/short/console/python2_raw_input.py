@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This is an example of how to read data from the user on the console
@@ -13,7 +13,6 @@ raw input prints to the screen * exactly * what you give it...
 - this example will not work in python3 since 'raw_input' got renamed to 'input'
 '''
 
-from __future__ import print_function
 text = raw_input('please give me a number: ')
 print(type(text))
 val = int(text)

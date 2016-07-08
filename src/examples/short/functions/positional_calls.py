@@ -1,6 +1,4 @@
-#!/usr/bin/python2
-
-from __future__ import print_function
+#!/usr/bin/python3
 
 
 def add(x, y):
@@ -14,7 +12,7 @@ name = raw_input('give me the name off the function ')
 num = int(
     raw_input('how many arguments do you want to pass to the function ? '))
 l = []
-for i in xrange(num):
+for i in range(num):
     a = raw_input('give me another argument ')
     l.append(a)
 print((vars()[name])(*l))

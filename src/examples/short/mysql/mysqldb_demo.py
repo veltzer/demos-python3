@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 simple example of how to use a mysql database using pythons
@@ -12,7 +12,6 @@ except MySQLdb.Error, e:
 	sys.exit(1)
 '''
 
-from __future__ import print_function
 import MySQLdb  # for connect
 
 params = {

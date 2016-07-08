@@ -1,10 +1,9 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This is an example of how to use pythons built-in ConfigParser for python2.
 '''
 
-from __future__ import print_function
 import os.path  # for expanduser
 import ConfigParser  # for ConfigParser
 

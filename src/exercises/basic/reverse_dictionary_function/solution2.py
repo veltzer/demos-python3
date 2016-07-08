@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 # this is a simple solution to the reverse hash function exercise
 

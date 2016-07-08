@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-# for int/int to return a float
-from __future__ import division
-
 
 def max_min_avg(*num):
     '''Return a tuple containing the maximum, minimum and average

@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 AsyncNotifier example from tutorial
@@ -6,7 +6,6 @@ AsyncNotifier example from tutorial
 See: http://github.com/seb-m/pyinotify/wiki/Tutorial
 '''
 
-from __future__ import print_function
 import asyncore  # for loop
 import pyinotify  # for WatchManager, IN_CREATE, IN_DELETE, ProcessEvent, AsyncNotifier
 

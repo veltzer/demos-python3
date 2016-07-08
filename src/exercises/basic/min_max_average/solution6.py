@@ -18,4 +18,4 @@ def min_max_avg(list):
     tup = functools.reduce(single_min_max_sum, list)
     return tup[0], tup[1], tup[2] / len(list)
 
-print(min_max_avg(xrange(0, 100000)))
+print(min_max_avg(range(0, 100000)))

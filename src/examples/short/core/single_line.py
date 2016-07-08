@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example shows that you can put code on the same line as
@@ -10,5 +10,5 @@ if True:
 else:
     print('Else')
 
-for x in xrange(10):
+for x in range(10):
     print(x)

@@ -1,10 +1,9 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This example shows how to call popen and get the return text.
 '''
 
-from __future__ import print_function
 import os  # for popen2
 
 (pin, pout) = os.popen2(['./demo_process.py'], bufsize=1)

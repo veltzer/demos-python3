@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 '''
 This is quite an advanced example of doing meta programming in python.
@@ -7,7 +7,6 @@ This exercise shows how to:
 	- add a method to an instance.
 '''
 
-from __future__ import print_function
 from new import instancemethod
 import pprint
 
