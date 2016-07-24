@@ -19,4 +19,4 @@ the experiments on your full system but rather on a small example
 that is easy to run, debug and manage. Once you have the example ready and
 running correctly you can incorporate it's code into a larger project.
 
-	Mark Veltzer <mark@veltzer.net>, 2010-2016
+	Mark Veltzer <mark.veltzer@gmail.com>, 2010-2016
