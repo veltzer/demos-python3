@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 
+'''
+This example explores loading/saving dictionaries in python from/to files
+'''
+
 import json  # for dump, load
 
 my_dict = {
     'one': 'onev',
-        'two': 'twov',
+    'two': 'twov',
 }
 
 filename = '/tmp/json_store.json'
