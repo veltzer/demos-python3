@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 import sys  # for argv, stderr, exit
-import mako.template  # for mako.template.Template
-import mako.lookup  # for mako.lookup.TemplateLookup
+import mako.template  # for Template
+import mako.lookup  # for TemplateLookup
 import os  # for os.chmod
 import datetime  # for datetime
 
