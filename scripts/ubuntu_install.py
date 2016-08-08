@@ -8,17 +8,18 @@ ubuntu to compile and work with this package.
 import subprocess # for check_call
 
 do_pips=False
+opt_python_version='3.5'
 
 packs=[
 	# python core
 	'python3',
 	'python3-doc',
 	'python3-examples',
-	'python3.4',
-	'python3.4-doc',
-	'python3.4-examples',
-	'python3.4-dev',
-	'python3.4-venv',
+	'python{0}'.format(opt_python_version),
+	'python{0}-doc'.format(opt_python_version),
+	'python{0}-examples'.format(opt_python_version),
+	'python{0}-dev'.format(opt_python_version),
+	'python{0}-venv'.format(opt_python_version),
 
 	# iteractive, parallel python
 	'ipython',
@@ -45,7 +46,7 @@ packs=[
 	'python-mysql.connector',
 	'python3-mysql.connector',
 	'python3-progressbar',
-	'python-networkx-doc', # tool to create, manipulate and study complex networks documentation
+	'python-networkx', # tool to create, manipulate and study complex networks documentation
 	'python3-networkx', # tool to create, manipulate and study complex networks (Python3)
 	'python3-pygraph', # library for working with graphs in Python (Python3)
 	'python-yapsy', # simple plugin system for Python applications
@@ -68,7 +69,7 @@ packs=[
 
 	# from my own repo
 	'templar',
-	'pdmt',
+	#'pdmt',
 
 	# notify related packages
 	'python-inotifyx',
