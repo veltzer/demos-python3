@@ -5,7 +5,7 @@ This example explores how best to catenate strings in python.
 
 The results are surprising.
 It seems the + operator is the quickest
-Join has pretty good performance.
+Join has pretty good performance too.
 '''
 
 import timeit  # for timeit
